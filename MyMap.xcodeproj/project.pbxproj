@@ -11,6 +11,7 @@
 		F9ED90272A21A72900A7B2AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED90262A21A72900A7B2AA /* ContentView.swift */; };
 		F9ED90292A21A72C00A7B2AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9ED90282A21A72C00A7B2AA /* Assets.xcassets */; };
 		F9ED902C2A21A72C00A7B2AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9ED902B2A21A72C00A7B2AA /* Preview Assets.xcassets */; };
+		F9ED90332A21A7A300A7B2AA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED90322A21A7A300A7B2AA /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F9ED90262A21A72900A7B2AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9ED90282A21A72C00A7B2AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9ED902B2A21A72C00A7B2AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9ED90322A21A7A300A7B2AA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				F9ED90262A21A72900A7B2AA /* ContentView.swift */,
 				F9ED90282A21A72C00A7B2AA /* Assets.xcassets */,
 				F9ED902A2A21A72C00A7B2AA /* Preview Content */,
+				F9ED90322A21A7A300A7B2AA /* MapView.swift */,
 			);
 			path = MyMap;
 			sourceTree = "<group>";
@@ -104,11 +107,12 @@
 			};
 			buildConfigurationList = F9ED901C2A21A72900A7B2AA /* Build configuration list for PBXProject "MyMap" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = F9ED90182A21A72900A7B2AA;
 			productRefGroup = F9ED90222A21A72900A7B2AA /* Products */;
@@ -138,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9ED90272A21A72900A7B2AA /* ContentView.swift in Sources */,
+				F9ED90332A21A7A300A7B2AA /* MapView.swift in Sources */,
 				F9ED90252A21A72900A7B2AA /* MyMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
